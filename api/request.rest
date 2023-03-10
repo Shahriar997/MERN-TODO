@@ -1,0 +1,24 @@
+GET http://localhost:3001/todos
+
+
+###
+
+
+POST http://localhost:3001/todo
+Content-Type: application/json
+
+{
+    "text": "Learn React Js"
+}
+
+
+###
+
+
+DELETE http://localhost:3001/todo/640a4cec20e7d4a3fe7780c5
+
+
+###
+
+
+PUT http://localhost:3001/todo/640a4cc420e7d4a3fe7780c3
